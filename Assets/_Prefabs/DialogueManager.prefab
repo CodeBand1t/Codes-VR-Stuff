@@ -1,0 +1,2773 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9416004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9416005}
+  - component: {fileID: 9416007}
+  - component: {fileID: 9416006}
+  m_Layer: 5
+  m_Name: ProgressIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9416005
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9416004}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.095000006, y: 0.095, z: 0.095}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 8384019090600323852}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -13.5, y: 7.6}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &9416007
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9416004}
+  m_CullTransparentMesh: 1
+--- !u!114 &9416006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9416004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e092377f341c74fd7b7daf53838aeac9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &965395591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 965395592}
+  - component: {fileID: 965395594}
+  - component: {fileID: 965395593}
+  m_Layer: 5
+  m_Name: ProgressIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &965395592
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965395591}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.095, y: 0.095, z: 0.095}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1412491766727501002}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 167.1, y: -32.08}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &965395594
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965395591}
+  m_CullTransparentMesh: 1
+--- !u!114 &965395593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965395591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e092377f341c74fd7b7daf53838aeac9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5800299723045562146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5800299723045562147}
+  - component: {fileID: 5800299723045562157}
+  - component: {fileID: 5800299723045562156}
+  - component: {fileID: 5800299723045562152}
+  - component: {fileID: 5800299723045562159}
+  - component: {fileID: 5800299723045562158}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5800299723045562147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800299723045562146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4892281500514488106}
+  - {fileID: 1412491767977633026}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5800299723045562157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800299723045562146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b952597ce646842b807bc58e2ce9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugCurrentIndex: -1
+  debugCurrentDialogue: 
+  speakerCollection:
+  - name: User
+  - name: Raena
+  dialogueCollection:
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Mmm, not this one, pick something else
+    delayTilNextDialogue: 1
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 1
+    dialogueString: Afterall, you have the remote...
+    delayTilNextDialogue: 2
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: TEST_Remote, Assembly-CSharp
+            m_MethodName: Activate
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetTVHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    postDialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetTVHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - isBreakPoint: 1
+    speakerIndex: 1
+    dialogueString: Not that one...
+    delayTilNextDialogue: 2
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 1
+    dialogueString: Nnnn, no...
+    delayTilNextDialogue: 2
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 1
+    dialogueString: Eh, we watched that last time...
+    delayTilNextDialogue: 2
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 1
+    dialogueString: Hmm, not in the mood
+    delayTilNextDialogue: 2
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: AH! That's so cute!
+    delayTilNextDialogue: 1
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: TEST_Remote, Assembly-CSharp
+            m_MethodName: Activate
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Open mouth smile
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Aaand, we have a winner.)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 0
+    dialogueString: (She's hogging the snacks again. I'll grab a handful.)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Hey! You said you weren't in the mood for snacks.
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Frown
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetWeightChangeDuration
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0.3
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0.8
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetTVHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - delay: 0.8
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 1
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: I cooked this. For. Me.
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Pout
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Oh? So putting a bag in the microwave counts as ''Cooking''
+      something, eh?"'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Cht, I ALSO put them in the bowl, ThankYouVeryMuch!
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Proud
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetWeightChangeDuration
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0.5
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (She's so stuborn. She must still be upset about me finishing
+      off the cheeze-its earlier.)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Ok, ok. Please allow this humble one to partake of your delicious
+      cooking."'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"In return, I shall be charged with providing the lady free
+      refills this evening."'
+    delayTilNextDialogue: 0
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Hehe, well, since you're so sincere, I shall share!
+    delayTilNextDialogue: 17
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Proud smile
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (So CUTE)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 0
+    dialogueString: (Good, she's not angry. I'll take this freebie and grab some
+      more later.)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (mmm, cinnamon and sugar...)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: Sequence1
+    sideDialogueStartDelay: 1
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpressionChangeDuration
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0.3
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Shock
+              m_BoolArgument: 0
+            m_CallState: 2
+    - delay: 1
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpressionChangeDuration
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Distress
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Whoa, my skin is starting to tingle. And I feel a little lightheaded...I
+      know this feeling!)
+    delayTilNextDialogue: 7
+    preCountDelay: 1
+    sideDialogueName: Sequence2
+    sideDialogueStartDelay: 1
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: _Scripts.SizeChange.SizeManager, Assembly-CSharp
+            m_MethodName: SetUserTargetScale
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0.8
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: _Scripts.SizeChange.SizeManager, Assembly-CSharp
+            m_MethodName: SetUserScalingDurating
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 6
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: _Scripts.SizeChange.SizeManager, Assembly-CSharp
+            m_MethodName: SetUserContinuousScaling
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Wha- I shrunk!"'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"What did you feed me?"'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: What I was SHARING with you is a new, LIMITED product.
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Disappointed
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: I only got one cause my friend works there, and I STILL had to
+      wait in line when they opened to get it!
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Sigh/Exasperated
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Her dissatisfaction usually makes her look cute, but my smaller
+      stature makes her a bit more intimidating.)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Well, but, I asked for a snack and you offered. Plus, the way
+      you offered left me a bit frazzled."'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: So dense
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Unwilling blush
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Ouch)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: I figured the scene on the TV would tip you off to what I was
+      going for...
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Sigh/Exasperated
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0.5
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Ugh, can't argue with that)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Eh, yeah. But...when I''m with you, you''re the only thing
+      on my mind. I can''t help becoming a bit foolish."'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Ah...em, mhm, well...I guess it was an...honest mistake
+    delayTilNextDialogue: 6
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Surprised blush
+              m_BoolArgument: 0
+            m_CallState: 2
+    - delay: 5
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Unwilling blush
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (SAVE! Still...)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"...besides, this is much weaker than what we used last time.
+      Are you sure you bought the right one?"'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Right! This one has a delayed effect
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Alert
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetTVHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: That means as the night goes on...
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Smirk2
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: ...you'll get cuter and cuter!
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Smirk2 hearts
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Right, smaller and smaller.)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: It doesn't feel fair that you get to have all the fun though...
+    delayTilNextDialogue: 8
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Pout
+              m_BoolArgument: 0
+            m_CallState: 2
+    - delay: 1.5
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (I envy that snack.)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Oh? Are you gonna be the small one this time?"'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (That'd be a first)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Nah, I bought this one from Min-
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Oooh
+    delayTilNextDialogue: 7
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1.2
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Pleasure
+              m_BoolArgument: 0
+            m_CallState: 2
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: _Scripts.SizeChange.SizeManager, Assembly-CSharp
+            m_MethodName: SetCharacterTargetScale
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1.2
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: _Scripts.SizeChange.SizeManager, Assembly-CSharp
+            m_MethodName: SetCharacterScalingDuration
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 6
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: _Scripts.SizeChange.SizeManager, Assembly-CSharp
+            m_MethodName: SetCharacterContinuousScaling
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Mmmn, haa
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Intense pleasure
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: That hit the spot
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Oh boy, here we go)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (Even sitting down, she's so much bigger than I am.)
+    delayTilNextDialogue: 4
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 2
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Mmm, hello there little one. Are you ready to pick out something
+      to watch?
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Lust
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Eh, yeah."'
+    delayTilNextDialogue: 2
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Smirk
+              m_BoolArgument: 0
+            m_CallState: 2
+    - delay: 1
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetTVHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 0
+    dialogueString: (Where did I leave the remote?)
+    delayTilNextDialogue: 0
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents: []
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: (At least it still fits in my hand. Who knows how long that'll
+      last...)
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents: []
+    postDialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+  - isBreakPoint: 0
+    speakerIndex: 1
+    dialogueString: Ah! I'm out of snacks!
+    delayTilNextDialogue: 0
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Disappointed
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  - isBreakPoint: 1
+    speakerIndex: 1
+    dialogueString: And I seem to recall a little helper volunteering to grab the
+      refills
+    delayTilNextDialogue: 0
+    preCountDelay: 0
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+            m_MethodName: SetTrigger
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: NextAnimation
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ExpressionController, Assembly-CSharp
+            m_MethodName: SetExpression
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Smirk
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: AimConstraintWeightController, Assembly-CSharp
+            m_MethodName: SetCameraHeadWeight
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: ColliderTriggerEventHandler, Assembly-CSharp
+            m_MethodName: SetIsOn
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+            m_MethodName: set_enabled
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - isBreakPoint: 0
+    speakerIndex: 0
+    dialogueString: '"Ah...I''m on it."'
+    delayTilNextDialogue: 0
+    preCountDelay: 1
+    sideDialogueName: 
+    sideDialogueStartDelay: 0
+    dialogueEvents:
+    - delay: 0
+      events:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+            m_MethodName: EndGame
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    postDialogueEvents: []
+  sideDialogueSequences:
+  - sequenceName: Sequence1
+    sideDialogues:
+    - speakerIndex: 1
+      dialogueString: HEY! You weren't supposed to eat the whole thing!!!
+      duration: 3
+      delayTilNext: 0
+  - sequenceName: Sequence2
+    sideDialogues:
+    - speakerIndex: 1
+      dialogueString: That was my only one...
+      duration: 3
+      delayTilNext: 2
+    - speakerIndex: 1
+      dialogueString: I wanted to make this feel more like watching in a theater...
+      duration: 3
+      delayTilNext: 2
+--- !u!114 &5800299723045562156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800299723045562146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a50d56b286d8c488ffd1faffe445ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceCoefficient: 0.2
+  internalDialogueColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+  externalDialogueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &5800299723045562152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800299723045562146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09dee07e964cf6c4e99cde596ba71ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userBubbleInstance: {fileID: 1412491767977633027}
+  userBubbleText: {fileID: 1412491766321769530}
+  userBubbleUIController: {fileID: 1412491767977633024}
+  characterBubbleInstance: {fileID: 4892281500514488107}
+  characterBubbleText: {fileID: 4892281501109716498}
+  characterBubbleProgressIcon: {fileID: 9416004}
+  characterBubbleUIController: {fileID: 4892281500514488104}
+  characterBubbleUIFollowCamera: {fileID: 4892281500514488105}
+  listenerTransforms:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  speakerTransforms:
+  - {fileID: 0}
+  - {fileID: 0}
+  advanceDialogueReferences:
+  - {fileID: 83097790271614945, guid: fccca5050c96a4c0e892cc7ea81208d2, type: 3}
+  - {fileID: -7165447584754331018, guid: fccca5050c96a4c0e892cc7ea81208d2, type: 3}
+  - {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - {fileID: -3670320821641299337, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  debugNextDialogueReferences:
+  - {fileID: -3670320821641299337, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - {fileID: -8313272447789415430, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  debugContinueDialogueReferences:
+  - {fileID: -8313272447789415430, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &5800299723045562159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800299723045562146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c807b9ea88c45345a3b2731bd4925a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBubbleClip: {fileID: 8300000, guid: 7ef8cca056d091944b3ec993a87c8748, type: 3}
+--- !u!82 &5800299723045562158
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800299723045562146}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1001 &854001654927029776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5800299723045562147}
+    m_Modifications:
+    - target: {fileID: 854001653046138576, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 854001653046138576, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: sizeInfluencerTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 854001653046138576, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: maxSizeIncreasePercentage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854001653107955084, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 355.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 854001653107955084, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 854001653107955084, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000041687
+      objectReference: {fileID: 0}
+    - target: {fileID: 854001653107955084, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00026947
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1412491766321769530}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: topPadding
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: leftPadding
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: rightPadding
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: bottomPadding
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: textContentSizeFitter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: imagesElements.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: imagesElements.Array.data[0]
+      value: 
+      objectReference: {fileID: 1412491767672282558}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: imagesElements.Array.data[1]
+      value: 
+      objectReference: {fileID: 1822286747}
+    - target: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: imagesElements.Array.data[2]
+      value: 
+      objectReference: {fileID: 965395593}
+    - target: {fileID: 1747440900058714897, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714897, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: targetTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714899, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_Name
+      value: UserDialogueBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900058714899, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900160673075, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: uiElementsToApplyTo.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900160673075, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: uiElementsToApplyTo.Array.data[2]
+      value: 
+      objectReference: {fileID: 1822286747}
+    - target: {fileID: 1747440900160673075, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: uiElementsToApplyTo.Array.data[3]
+      value: 
+      objectReference: {fileID: 965395593}
+    - target: {fileID: 1747440900356729774, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900356729775, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 355.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900356729775, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900356729775, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.98e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440900356729775, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00026947
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901307863770, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 355.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901307863770, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901307863770, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901307863770, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307562, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_text
+      value: 'New TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew
+        TextNew TextNew TextNew TextNew '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307562, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307562, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_margin.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307562, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_margin.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307562, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_margin.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307562, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_lineSpacing
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307563, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 355.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307563, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307563, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307563, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00013977
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747440901707307563, guid: d8ac909f204ed4c22aeedd8306f7169f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00024986
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1747440901707307560, guid: d8ac909f204ed4c22aeedd8306f7169f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d8ac909f204ed4c22aeedd8306f7169f, type: 3}
+--- !u!114 &1822286747 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 854001653107955083, guid: d8ac909f204ed4c22aeedd8306f7169f,
+    type: 3}
+  m_PrefabInstance: {fileID: 854001654927029776}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1412491766321769530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1747440901707307562, guid: d8ac909f204ed4c22aeedd8306f7169f,
+    type: 3}
+  m_PrefabInstance: {fileID: 854001654927029776}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &1412491766727501002 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1747440901307863770, guid: d8ac909f204ed4c22aeedd8306f7169f,
+    type: 3}
+  m_PrefabInstance: {fileID: 854001654927029776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1412491767672282558 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1747440900356729774, guid: d8ac909f204ed4c22aeedd8306f7169f,
+    type: 3}
+  m_PrefabInstance: {fileID: 854001654927029776}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1412491767977633024 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1747440900058714896, guid: d8ac909f204ed4c22aeedd8306f7169f,
+    type: 3}
+  m_PrefabInstance: {fileID: 854001654927029776}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412491767977633027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258723b004d0046888e7822ab348280c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1412491767977633026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1747440900058714898, guid: d8ac909f204ed4c22aeedd8306f7169f,
+    type: 3}
+  m_PrefabInstance: {fileID: 854001654927029776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1412491767977633027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1747440900058714899, guid: d8ac909f204ed4c22aeedd8306f7169f,
+    type: 3}
+  m_PrefabInstance: {fileID: 854001654927029776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5800299722358246124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5800299723045562147}
+    m_Modifications:
+    - target: {fileID: 1412491765981217767, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: uiElementsToApplyTo.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491765981217767, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: uiElementsToApplyTo.Array.data[2]
+      value: 
+      objectReference: {fileID: 8384019090600323853}
+    - target: {fileID: 1412491765981217767, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: uiElementsToApplyTo.Array.data[3]
+      value: 
+      objectReference: {fileID: 9416006}
+    - target: {fileID: 1412491765981217789, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491765981217789, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 4892281501109716498}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: maxWidth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: leftPadding
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: imagesElements.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: imagesElements.Array.data[0]
+      value: 
+      objectReference: {fileID: 4892281500212197270}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: imagesElements.Array.data[1]
+      value: 
+      objectReference: {fileID: 8384019090600323853}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: imagesElements.Array.data[2]
+      value: 
+      objectReference: {fileID: 9416006}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: backgroundRectTransforms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: backgroundRectTransforms.Array.data[0]
+      value: 
+      objectReference: {fileID: 4892281500212197271}
+    - target: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: backgroundRectTransforms.Array.data[1]
+      value: 
+      objectReference: {fileID: 8384019090600323852}
+    - target: {fileID: 1412491766100411845, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: targetTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766100411847, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Name
+      value: CharacterDialogueBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336666996, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Name
+      value: Boarder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667002, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 487dd508e648543b4b7281eafb2be9c0,
+        type: 3}
+    - target: {fileID: 1412491766336667002, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667002, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667002, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667002, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667002, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766981510158, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766981510158, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766981510158, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766981510158, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766981510158, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491766981510158, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715198, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715198, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 1412491767653715198, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 5cad75afd10484c148eaf853e9a99a50, type: 2}
+    - target: {fileID: 1412491767653715198, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1412491767653715199, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604427679514403296, guid: e10306a953d6e453bacb93dbcf761b9a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 469120126992415150, guid: e10306a953d6e453bacb93dbcf761b9a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e10306a953d6e453bacb93dbcf761b9a, type: 3}
+--- !u!114 &4892281500212197270 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1412491766336667002, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &4892281500212197271 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1412491766336667003, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4892281500514488104 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1412491766100411844, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892281500514488107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258723b004d0046888e7822ab348280c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4892281500514488105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1412491766100411845, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892281500514488107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cc770926d0f454bbdb138dc80d709f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &4892281500514488106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1412491766100411846, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4892281500514488107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1412491766100411847, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5800299722358246127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892281500514488107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704dc79ade34149929002f939b1aa8ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSizeIncreasePercentage: 75
+  sizeInfluencerTransform: {fileID: 0}
+--- !u!114 &4892281501109716498 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1412491767653715198, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &8384019090600323852 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2604427679514403296, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8384019090600323853 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2604427679514403297, guid: e10306a953d6e453bacb93dbcf761b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5800299722358246124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
